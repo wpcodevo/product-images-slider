@@ -13,8 +13,8 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
-  background-color: #71d186;
   height: 100vh;
+  background-color: #71d186;
   position: relative;
 }
 
@@ -90,7 +90,7 @@ body {
   margin-bottom: 2rem;
 }
 
-button {
+.btn-group button {
   display: inline-block;
   width: 15rem;
   padding: 1.3rem;
@@ -102,7 +102,6 @@ button {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-
 .btn-group button:focus {
   outline: none;
 }
@@ -115,39 +114,6 @@ button {
   color: #555;
 }
 
-.glide__arrow {
-  position: absolute;
-  background-color: transparent;
-  color: #8492a6;
-  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  box-shadow: 0;
-  padding: 1rem 2rem;
-  border: 1px solid #8492a6;
-  opacity: 0;
-  top: -2rem;
-  visibility: hidden;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-}
-.glide__arrow:hover {
-  border: 1px solid #8492a6;
-}
-.glide__arrow:focus {
-  outline: none;
-}
-.glide__arrow--left {
-  left: 2rem;
-}
-.glide__arrow--right {
-  right: 2rem;
-}
-
-.slider:hover .glide__arrow {
-  visibility: visible;
-  opacity: 1;
-}
-
 .glide__bullets {
   position: absolute;
   left: 50%;
@@ -156,10 +122,10 @@ button {
 
 .glide__bullet {
   width: 15rem;
-  height: 10rem;
+  height: 11rem;
   border-radius: 0;
   border: 1px solid #8492a6;
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0);
   background-color: rgba(0, 0, 0, 0.05);
 }
 .glide__bullet:hover {
@@ -176,9 +142,40 @@ button {
   height: 10rem;
 }
 .thumbnail img {
-  width: 15rem;
+  width: 10rem;
   height: 10rem;
   object-fit: contain;
+}
+
+.glide__arrow {
+  position: absolute;
+  background-color: transparent;
+  color: #8492a6;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  padding: 1rem 2rem;
+  border: 1px solid #8492a6;
+  opacity: 0;
+  top: -2rem;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.glide__arrow:focus {
+  outline: none;
+}
+.glide__arrow--left {
+  left: 2rem;
+}
+.glide__arrow--right {
+  right: 2rem;
+}
+.glide__arrow:hover {
+  border: 1px solid #8492a6;
+}
+
+.slider:hover .glide__arrow {
+  visibility: visible;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
