@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Glidejs CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Codevo Slider</title>
+  </head>
+
+  <body>
+    <div class="slider">
+      <div class="container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="slide">
+                  <div class="image-holder">
+                    <img src="./images/pic1.png" alt="" />
+                  </div>
+                  <div class="cart-details">
+                    <h1>Polar Skate Cord Devil</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Doloremque eius, laborum sunt dolorem necessitatibus
+                      incidunt aut ducimus, quis, veritatis.
+                    </p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="colors">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="btn-group">
+                      <button>Add To Cart</button>
+                      <button>$75</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide">
+                  <div class="image-holder">
+                    <img src="./images/pic2.png" alt="" />
+                  </div>
+                  <div class="cart-details">
+                    <h1>Polar Skate Cord Devil</h1>
+                    <p>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Facere perspiciatis veniam, fuga quis ipsam unde sint
+                      dolor iure numquam cumque.
+                    </p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="colors">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="btn-group">
+                      <button>Add To Cart</button>
+                      <button>$75</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="slide">
+                  <div class="image-holder">
+                    <img src="./images/pic3.png" alt="" />
+                  </div>
+                  <div class="cart-details">
+                    <h1>Polar Skate Cord Devil</h1>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Doloremque eius, laborum sunt dolorem necessitatibus
+                      incidunt aut ducimus, quis, veritatis.
+                    </p>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="colors">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                    <div class="btn-group">
+                      <button>Add To Cart</button>
+                      <button>$75</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Arrows -->
+          <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              prev
+            </button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              next
+            </button>
+          </div>
+
+          <!-- Thumbnails -->
+          <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0">
+              <div class="thumbnail">
+                <img src="./images/pic1.png" />
+              </div>
+            </button>
+
+            <button class="glide__bullet" data-glide-dir="=1">
+              <div class="thumbnail">
+                <img src="./images/pic2.png" />
+              </div>
+            </button>
+
+            <button class="glide__bullet" data-glide-dir="=2">
+              <div class="thumbnail">
+                <img src="./images/pic3.png" />
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Glidejs Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="./slider.js"></script>
+  </body>
+</html>
